@@ -103,7 +103,7 @@ header .navbar-nav .nav-item .nav-link {
 
 #carousel {
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
-        url(./images/banner1.jpg);
+        url(./../images/banner1.jpg);
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,7 +217,7 @@ header .navbar-nav .nav-item .nav-link {
 } */
 
 .book__content .book__img {
-    background-image: url(./images/image04.jpg);
+    background-image: url(./../images/image04.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -470,7 +470,7 @@ header .navbar-nav .nav-item .nav-link {
 
 .statistics__top {
     padding: 80px;
-    background-image: url("../images/banner2.jpg");
+    background-image: url("./../images/banner2.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-size: cover;
@@ -562,7 +562,7 @@ header .navbar-nav .nav-item .nav-link {
 /* Video */
 .statistics__bottom-images {
     padding: 25%;
-    background-image: url("../images/banner3.jpg");
+    background-image: url("./../images/banner3.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
     background-size: 150%;
