@@ -5,10 +5,10 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-@media (max-width: 670px) {
-    .form-inline{
-        opacity: 0  ;
-    }
+@media (max-width: 670px) { 
+.form-inline{
+    opacity: 0  ;
+}
 }
 
 
@@ -53,7 +53,7 @@ header .navbar .navbar-brand {
 
 .input-group-text i {
     cursor: pointer;
-
+    
 }
 
 .input-group input {
@@ -103,7 +103,7 @@ header .navbar-nav .nav-item .nav-link {
 
 #carousel {
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
-    url(../images/banner1.jpg);
+        url(./images/banner1.jpg);
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,28 +152,28 @@ header .navbar-nav .nav-item .nav-link {
 }
 
 .book{
-    background-color: #ff6600;
+   background-color: #ff6600; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
     .aboutus__content .row .aboutus__lorem{
         margin-left: -27px;
     }
-}
+ }
 
-@media (max-width: 578px) {
+ @media (max-width: 578px) { 
     .aboutus__content .row {
         padding-left: 40px;
     }
-}
+ }
 
-@media (max-width: 767px) {
-    .book__img{
-        margin: 40px 20px;
-    }
-    .book__footer .row{
-        text-align: center;
-    }
+@media (max-width: 767px) { 
+ .book__img{
+    margin: 40px 20px;
+ }
+ .book__footer .row{
+    text-align: center;
+ }
 }
 
 .about__us{
@@ -217,7 +217,7 @@ header .navbar-nav .nav-item .nav-link {
 } */
 
 .book__content .book__img {
-    background-image: url(../images/image04.jpg);
+    background-image: url(./images/image04.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -413,6 +413,7 @@ header .navbar-nav .nav-item .nav-link {
     background-color: #ff6600;
     color: #fff;
 }
+
 
 /* DEV B */
 /* Statistics */
