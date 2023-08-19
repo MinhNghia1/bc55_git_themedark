@@ -44,19 +44,19 @@ header .navbar .navbar-brand {
     border-bottom-right-radius: 5px;
 }
 
-.input-group .form-control{
+header .input-group .form-control{
     background: #232220;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     height: 45px;
 }
 
-.input-group-text i {
+header .input-group-text i {
     cursor: pointer;
     
 }
 
-.input-group input {
+header .input-group input {
     border: none;
     background-color: white;
 }
@@ -134,7 +134,7 @@ header .navbar-nav .nav-item .nav-link {
     color: #fff;
 }
 
-.button {
+#carousel .button {
     padding: 15px 45px;
     color: #fff;
     font-size: 20px;
@@ -145,7 +145,7 @@ header .navbar-nav .nav-item .nav-link {
 }
 
 
-.button:hover {
+#carousel .button:hover {
     background: #fff;
     border: 2px solid #fff;
     color: #ff6600;
@@ -309,7 +309,7 @@ header .navbar-nav .nav-item .nav-link {
     color: #eee;
 }
 
-.card {
+.new .card {
     position: relative;
     border-radius: 10px;
     border: none;
@@ -317,12 +317,12 @@ header .navbar-nav .nav-item .nav-link {
     border-radius: 10px;
 }
 
-.card .card-img-top{
+.new .card .card-img-top{
     border-radius: 10px;
     transition: all 0.5s;
 }
 
-.card::after{
+.new .card::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -333,7 +333,7 @@ header .navbar-nav .nav-item .nav-link {
     border-radius: 10px;
 }
 
-.card .image__overlay{
+.new .card .image__overlay{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -342,18 +342,18 @@ header .navbar-nav .nav-item .nav-link {
     padding-bottom: 10px;
 }
 
-.card .image__overlay h4{
+.new .card .image__overlay h4{
     color: #fff;
     font-weight: 600;
 }
 
-.card .image__overlay p{
+.new .card .image__overlay p{
     font-weight: 600;
     color: #ffc600;
     font-size: 20px;
 }
 
-.card .card-img-top:hover{
+.new .card .card-img-top:hover{
     opacity: 0.85;
 }
 
@@ -937,7 +937,7 @@ footer {
     display: inline-block;
     text-align: center;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: #232220;
     width: 36px;
     height: 36px;
     line-height: 36px;
