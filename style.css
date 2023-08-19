@@ -103,7 +103,7 @@ header .navbar-nav .nav-item .nav-link {
 
 #carousel {
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
-        url(../image/banner1.jpg);
+        url(./image/banner1.jpg);
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,7 +217,7 @@ header .navbar-nav .nav-item .nav-link {
 } */
 
 .book__content .book__img {
-    background-image: url(../image/image04.jpg);
+    background-image: url(./image/image04.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
