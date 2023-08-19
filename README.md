@@ -1,4 +1,5 @@
 # bc55_git_themedark
 
-Nghĩa: Nhánh Dev A 
-Thùy Trang: Nhánh Dev B
+Quản lý Nhánh Dev A: Nghĩa
+
+Quản lý Nhánh Dev B: Thùy Trang
